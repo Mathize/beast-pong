@@ -21,7 +21,7 @@ public class powerUp : MonoBehaviour
 
         if(game.playerActiveType == Player.types.PLAYER2){
                 OnPowerUp(dragonPowerUp);
-                Invoke("OffPowerUpDragon", 2.5f);
+                Invoke("OffPowerUpDragon", 2f);
         }
             
 
